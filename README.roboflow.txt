@@ -1,8 +1,8 @@
 
-main - v7 2025-05-14 11:40am
+main - v10 2025-06-10 10:42am
 ==============================
 
-This dataset was exported via roboflow.com on May 14, 2025 at 6:49 AM GMT
+This dataset was exported via roboflow.com on June 10, 2025 at 2:45 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -21,7 +21,8 @@ The dataset includes 1444 images.
 Damage-panel-ZBuE are annotated in COCO Segmentation format.
 
 The following pre-processing was applied to each image:
-* Resize to 896x896 (Stretch)
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Resize to 1024x1024 (Stretch)
 
 No image augmentation techniques were applied.
 
