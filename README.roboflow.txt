@@ -1,8 +1,8 @@
 
-main - v7 2025-05-14 11:40am
+Updated Dataset Final - v3 2025-07-03 2:05am
 ==============================
 
-This dataset was exported via roboflow.com on May 14, 2025 at 6:49 AM GMT
+This dataset was exported via roboflow.com on July 3, 2025 at 2:42 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,11 +17,12 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1444 images.
-Damage-panel-ZBuE are annotated in COCO Segmentation format.
+The dataset includes 4661 images.
+Parts-damages-RHqx are annotated in COCO for MMDetection format.
 
 The following pre-processing was applied to each image:
-* Resize to 896x896 (Stretch)
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
+* Resize to 512x512 (Stretch)
 
 No image augmentation techniques were applied.
 
